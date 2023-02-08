@@ -9,7 +9,7 @@ $dataperiodo = $c."/".$d; ?>
 
 <html>
 <head>
-<title> Consulta de Orçamentos </title>
+<title> Consulta de Orï¿½amentos </title>
 <link rel="stylesheet" href="style/default.css" type="text/css">
 <script language="JavaScript" src="funcoes/geral.js"></script>
 <script language="JavaScript" SRC="funcoes/overlib.js"></script>
@@ -21,7 +21,7 @@ $dataperiodo = $c."/".$d; ?>
 
 <?
 $sql = "SELECT * FROM usuarios WHERE username='$nome_usuario'";
-$resultado = mysql_query($sql) or die ("Não foi possível realizar a consulta ao banco de dados");
+$resultado = mysql_query($sql) or die ("Nï¿½o foi possï¿½vel realizar a consulta ao banco de dados");
 while ($linha=mysql_fetch_array($resultado)) {
 $libinserir = $linha["libinserir"]; 
 $libalterar = $linha["libalterar"]; 
@@ -64,7 +64,7 @@ $libhorafim = $linha["libhorafim"];
 <table class=sem_borda width=100% align="center">
 <tr>
 <td class=center ><? /* N_ORC */ ?>
-<? if ($libn_orc == "" and $checkn_orc == "") { ?> N° Orç <? } ?>
+<? if ($libn_orc == "" and $checkn_orc == "") { ?> Nï¿½ Orï¿½ <? } ?>
 </td>
 
 <td class=center ><? /* CLIENTE */ ?>
@@ -80,7 +80,7 @@ $libhorafim = $linha["libhorafim"];
 </td>
 
 <td class=center ><? /* REFERENCIA */ ?>
-<? if ($libreferencia == "" and $checkreferencia == "") {?> Referência / Obra <? } ?>
+<? if ($libreferencia == "" and $checkreferencia == "") {?> Referï¿½ncia / Obra <? } ?>
 </td>
 
 <td class=center ><? /* UF */ ?>
@@ -104,20 +104,20 @@ $libhorafim = $linha["libhorafim"];
 <td class=center >  Data Alterada </td> <? } ?>
 
 <td class=center ><? /* PERIODO */ ?>
-<? if ($libperiodo == "" and $checkperiodo == "") {?> Período <? } ?>
+<? if ($libperiodo == "" and $checkperiodo == "") {?> Perï¿½odo <? } ?>
 </td>
 
 <? /* PERIODO ALTERADO */ ?>
 <? if ($libperiodoalterado == "" and $checkperiodoalterado == "") {?>
-<td class=center >   Período Alterado </td> <? } ?>
+<td class=center >   Perï¿½odo Alterado </td> <? } ?>
 
 <? /* USUARIO */ ?>
 <? if ($libusuario == "" and $checkusuario == "") {?>
-<td class=center >  Usuário </td> <? } ?>
+<td class=center >  Usuï¿½rio </td> <? } ?>
 
 <? /* USUARIO ALTERADO  */ ?>
 <? if ($libusuarioalterado == "" and $checkusuarioalterado == "") {?>
-<td class=center > Usuário Alterado </td> <? } ?>
+<td class=center > Usuï¿½rio Alterado </td> <? } ?>
 
 
 <? /* TEMPO  */ ?>
@@ -130,7 +130,7 @@ $libhorafim = $linha["libhorafim"];
 </td>
 </tr>
 
-<? /* --------------------  INICIO DOS BOTOES DE SELECÃO (FILTROS)  -----------------------------  */  ?>
+<? /* --------------------  INICIO DOS BOTOES DE SELECï¿½O (FILTROS)  -----------------------------  */  ?>
 <?
 if ( $fn_orc <> "") {$fn_orcdb = "and n_orc='$fn_orc'";} else {$fn_orcdb = "";}
 if ( $fcliente <> "" ) {$fclientedb = "and cliente='$fcliente'";} else {$fclientedb = "";}
@@ -162,7 +162,7 @@ if ( $ftempo_total <> "" ) {$ftempo_totaldb = "and tempo_total='$ftempo_total'";
 
 ?>
 
-<? /* --------------------  FIM DOS BOTOES DE SELECÃO (FILTROS)  -----------------------------  */  ?>
+<? /* --------------------  FIM DOS BOTOES DE SELECï¿½O (FILTROS)  -----------------------------  */  ?>
 
 <? /* --------------------  INICIO DA CONSULTA  -----------------------------  */  ?>
 <?
@@ -196,9 +196,9 @@ $btempo_total = $dados["tempo_total"];
 <? if ($libn_orc == "" and $checkn_orc == "") { ?>
 <? if ($libalterar == "sim") { ?>
 <input class="botao_inserir" type="button" name="altera" value="<?echo $bn_orc?>" onClick="javascript:void(open('altera_orcamento.php?n_orc=<?echo$bn_orc?>','principal','scrollbars=yes'))"
-onMouseOver="drc('',' Alterar - N° Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
+onMouseOver="drc('',' Alterar - Nï¿½ Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
 <? } else { ?>
-<input class="botao_inserir1" type="button" name="altera" value="<?echo $bn_orc?>" onMouseOver="drc('',' N° Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
+<input class="botao_inserir1" type="button" name="altera" value="<?echo $bn_orc?>" onMouseOver="drc('',' Nï¿½ Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
 <? } } ?>
 </td>
 <td class=center_borda> <? if ($libcliente == "" and $checkcliente == "") {echo "$bcliente";} ?></td>
@@ -230,7 +230,7 @@ onMouseOver="drc('',' Alterar - N° Orc.  <?echo"$bn_orc"?> '); return true;" onM
 <td class=center_borda>
 <? if ($libexcluir == "sim") { ?>
 <input class="botao_excluir" type="button" value="<?echo $bn_orc?>"  onClick="javascript:void(open('confirmacao_excluir_orcamento.php?n_orc=<?echo$bn_orc?>','principal','scrollbars=yes'))"
-onMouseOver="drc('',' Excluir - N° Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
+onMouseOver="drc('',' Excluir - Nï¿½ Orc.  <?echo"$bn_orc"?> '); return true;" onMouseOut="nd(); return true;">
 <? } ?>
 </td></tr>
 <? $valortotal = $valortotal + $bvalor; $QuantOrc = $QuantOrc + 1 ;?>
