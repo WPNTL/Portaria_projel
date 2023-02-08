@@ -1,0 +1,200 @@
+-- phpMyAdmin SQL Dump
+-- version 2.7.0-rc1
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tempo de Geração: Nov 19, 2007 as 04:48 PM
+-- Versão do Servidor: 4.1.11
+-- Versão do PHP: 5.0.4
+-- 
+-- Banco de Dados: `pcp`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `pcp`
+-- 
+
+CREATE TABLE `pcp` (
+  `id` int(11) NOT NULL auto_increment,
+  `data_emissao` date NOT NULL default '0000-00-00',
+  `data_emissao_alt` date NOT NULL default '0000-00-00',
+  `num_os` text NOT NULL,
+  `num_os_alt` text NOT NULL,
+  `item` text NOT NULL,
+  `num_proposta` text NOT NULL,
+  `nome_cliente` text NOT NULL,
+  `nome_cliente_alt` text NOT NULL,
+  `oc_obra` text NOT NULL,
+  `oc_obra_alt` text NOT NULL,
+  `estado` text NOT NULL,
+  `estado_alt` text NOT NULL,
+  `data_entrega` text NOT NULL,
+  `data_entrega_alt` text NOT NULL,
+  `local_venda` text NOT NULL,
+  `local_venda_alt` text NOT NULL,
+  `descr_vent` text NOT NULL,
+  `descr_vent_alt` text NOT NULL,
+  `mercado` text NOT NULL,
+  `mercado_alt` text NOT NULL,
+  `modelo` text NOT NULL,
+  `modelo_alt` text NOT NULL,
+  `tamanho` text NOT NULL,
+  `tamanho_alt` text NOT NULL,
+  `arranjo` text NOT NULL,
+  `arranjo_alt` text NOT NULL,
+  `classe` text NOT NULL,
+  `classe_alt` text NOT NULL,
+  `rotacao` text NOT NULL,
+  `rotacao_alt` text NOT NULL,
+  `gab` text NOT NULL,
+  `gab_alt` text NOT NULL,
+  `pintura` text NOT NULL,
+  `construcao` text NOT NULL,
+  `tipo` text NOT NULL,
+  `tipo_alt` text NOT NULL,
+  `qt` text NOT NULL,
+  `qt_alt` text NOT NULL,
+  `valor_uni` text NOT NULL,
+  `valor_uni_alt` text NOT NULL,
+  `valor_total` text NOT NULL,
+  `valor_total_alt` text NOT NULL,
+  `valor_total_os` text NOT NULL,
+  `valor_total_os_alt` text NOT NULL,
+  `reprogramacao` text NOT NULL,
+  `reprogramacao_alt` text NOT NULL,
+  `baixa` text NOT NULL,
+  `baixa_alt` text NOT NULL,
+  `data_baixa` text NOT NULL,
+  `data_baixa_alt` text NOT NULL,
+  `fornecimento_motor` text NOT NULL,
+  `fornecimento_motor_alt` text NOT NULL,
+  `data_motor_recebido` text NOT NULL,
+  `data_motor_recebido_alt` text NOT NULL,
+  `obs` text NOT NULL,
+  `obs_alt` text NOT NULL,
+  `usuario` text NOT NULL,
+  `usuario_alt` text NOT NULL,
+  `data_prog_diaria` text NOT NULL,
+  `proj_os_dt_prog` text NOT NULL,
+  `proj_os_dt_entrada` text NOT NULL,
+  `proj_os_dt_saida` text NOT NULL,
+  `proj_os_status` text NOT NULL,
+  `pos_motor` text NOT NULL,
+  `pot_motor_cv` text NOT NULL,
+  `pot_motor_polos` text NOT NULL,
+  `tensao_motor` text NOT NULL,
+  `vazao` text NOT NULL,
+  `rotacao_rpm` text NOT NULL,
+  `p_estatica_op` text NOT NULL,
+  `int_lub` text NOT NULL,
+  `tag` text NOT NULL,
+  `data_book` text NOT NULL,
+  `certif_balanc` text NOT NULL,
+  `certif_materiais` text NOT NULL,
+  `desenho_certif` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Estrutura da tabela `usuarios`
+-- 
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL auto_increment,
+  `username` text NOT NULL,
+  `senha` varchar(10) NOT NULL default '',
+  `ip` varchar(10) NOT NULL default '',
+  `lib_inserir` char(3) NOT NULL default '',
+  `lib_inserir_pedido` char(3) NOT NULL default '',
+  `lib_consulta` char(3) NOT NULL default '',
+  `lib_consulta_os` char(3) NOT NULL default '',
+  `lib_consulta_pedido` char(3) NOT NULL default '',
+  `lib_alterar` char(3) NOT NULL default '',
+  `lib_alterar_geral` char(3) NOT NULL default '',
+  `lib_pcp` char(3) NOT NULL default '',
+  `lib_pcp_producao` char(3) NOT NULL default '',
+  `lib_vendas` char(3) NOT NULL default '',
+  `lib_excluir` char(3) NOT NULL default '',
+  `lib_imprimir_geral` char(3) NOT NULL default '',
+  `lib_imprimir_geral_sp` char(3) NOT NULL default '',
+  `lib_imprimir_diaria_dia` char(3) NOT NULL default '',
+  `lib_data_emissao` text NOT NULL,
+  `lib_num_os` text NOT NULL,
+  `lib_item` text NOT NULL,
+  `lib_num_proposta` text NOT NULL,
+  `lib_nome_cliente` text NOT NULL,
+  `lib_oc_obra` text NOT NULL,
+  `lib_estado` text NOT NULL,
+  `lib_local_venda` text NOT NULL,
+  `lib_data_entrega` text NOT NULL,
+  `lib_descr_vent` text NOT NULL,
+  `lib_mercado` text NOT NULL,
+  `lib_modelo` text NOT NULL,
+  `lib_tamanho` text NOT NULL,
+  `lib_arranjo` text NOT NULL,
+  `lib_classe` text NOT NULL,
+  `lib_rotacao` text NOT NULL,
+  `lib_gab` text NOT NULL,
+  `lib_tipo` text NOT NULL,
+  `lib_pintura` text NOT NULL,
+  `lib_construcao` text NOT NULL,
+  `lib_qt` text NOT NULL,
+  `lib_valor_uni` text NOT NULL,
+  `lib_valor_total` text NOT NULL,
+  `lib_valor_total_os` text NOT NULL,
+  `lib_obs` text NOT NULL,
+  `lib_fornecimento_motor` text NOT NULL,
+  `lib_data_motor_recebido` text NOT NULL,
+  `lib_reprogramacao` text NOT NULL,
+  `lib_baixa` text NOT NULL,
+  `lib_baixa_tipo` text NOT NULL,
+  `lib_data_baixa` text NOT NULL,
+  `lib_data_prog_diaria` text NOT NULL,
+  `lib_proj` text NOT NULL,
+  `lib_pos_motor` text NOT NULL,
+  `lib_pot_motor_cv` text NOT NULL,
+  `lib_pot_motor_polos` text NOT NULL,
+  `lib_tensao_motor` text NOT NULL,
+  `lib_vazao` text NOT NULL,
+  `lib_rotacao_rpm` text NOT NULL,
+  `lib_p_estatica_op` text NOT NULL,
+  `lib_int_lub` text NOT NULL,
+  `lib_tag` text NOT NULL,
+  `lib_data_book` text NOT NULL,
+  `lib_certif_balanc` text NOT NULL,
+  `lib_certif_materiais` text NOT NULL,
+  `lib_desenho_certif` text NOT NULL,
+  PRIMARY KEY  (`id`)
+)  ;
+
+
+-- --------------------------------------------------------
+-- 
+-- Estrutura da tabela `pcp_pedido`
+-- 
+
+CREATE TABLE `pcp_pedido` (
+  `id` int(11) NOT NULL auto_increment,
+  `data_emissao` date NOT NULL default '0000-00-00',
+  `nome_cliente` text NOT NULL,
+  `oc_obra` text NOT NULL,
+  `data_rec_pedido` text NOT NULL,
+  `prazo_entrega_dias` text NOT NULL,
+  `data_entrega` text NOT NULL,
+  `data_copia` text NOT NULL,
+  `data_copia_enviado` text NOT NULL,
+  `data_emissao_pedido` text NOT NULL,
+  `data_emissao_pedido_enviado` text NOT NULL,
+  `data_lib_financeiro` text NOT NULL,
+  `data_lib_financeiro_enviado` text NOT NULL,
+  `data_analise_critica` text NOT NULL,
+  `data_analise_critica_enviado` text NOT NULL,
+  `pendencias` text NOT NULL,
+  `usuario` text NOT NULL,
+  `usuario_alt` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ;

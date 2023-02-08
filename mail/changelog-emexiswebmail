@@ -1,0 +1,72 @@
+Changelog emexis-webmail-3.2.5
+Português
+* Alteração do Editor, novo ckeditor
+* Atualização de diversas bibliotecas, libs e plugins (Incluindo a Jquery 1.7.2)
+* Correção de bugs
+English
+* Added new editor for compose (Ckeditor)
+* Updated several javascript's libraries like Jquery 1.7.2
+* Fixed many bugs
+
+Changelog emexis-webmail-3.2.4
+PortuguÊs
+* Correção de diversos bugs e melhor suporte ao plugin de quota
+English
+* Fixing many bugs and support the quota's plugin
+
+Changelog emexis-webmail-3.2.3
+* Fixado problemas com a interface de importação de contatos
+* Fixado problemas com interface e mensagens de alerta
+
+Changelog emexis-webmail-3.2.2
+* Fixado problema de anexos quando enviava uma mensagem de outra pasta que nÃo fosse inbox
+* Fixado problema com o catalogo de endereÃos da janela de escrever mensagens
+* Fixado problema ao excluir mensagens na vertical
+* Fixado problema ao  selecionar contatos no compose
+* Fixado alguns bugs para adicionar contatos
+
+Changelog emexis-webmail-3.2.3
+* Fixed bugs with interface to import and export contacts
+* Fixed some bugs with interface and warning and info alerts.
+
+Changelog emexis-webmail-3.2.2
+* Fixed bug when delete messagens in vertical layout
+* Fixed bug to select contact in compose 
+* Fixed some bugs to add contact
+* Fixed bug to add events
+
+
+Changelog emexis-webmail-3.2.1
+
+Portuguï¿½s
+---------------------------------------------------------------------------
+* CorreÃÃ£ para exibiï¿½Ã£o do plugin de a
+* CorreÃ§Ã£o do calendï¿½rio ao receber convites enviados pelo Outlook ou
+Thunderbird
+
+English
+---------------------------------------------------------------------------
+* Fixed problem with quotas's plugin
+* Fixed problem on calendar with invites from Outlook and Thunderbird
+
+
+
+Changelog emexis-webmail-3.2.0-BETA
+
+English
+----------------------------------------------------------------------------
+* Vertical display mode
+* Agenda
+* Export and import of events
+* Icalendar support
+* Notifications of events
+
+
+PortuguÃªs
+----------------------------------------------------------------------------
+Novos recursos
+* Modelo de visualizaÃ§Ã£o vertical
+* Agenda de eventos
+* ExportaÃ§Ã£o e importaÃ§Ã£o de eventos
+* Suporte ao formato Icalendar
+* NotificaÃ§Ãµes de alerta de eventos

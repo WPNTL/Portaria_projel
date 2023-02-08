@@ -1,0 +1,380 @@
+.body
+{
+    WIDTH: 100%;
+	HEIGHT: 100%;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #99CCEA;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.edita
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}
+.edita_center
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}
+.edita_left
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}
+.edita_right
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: right;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}
+.nedita
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;
+    layer-background-color: #99CCEA
+}
+.nedita_center
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;
+    layer-background-color: #99CCEA
+}
+.nedita_right
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: right;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;
+    layer-background-color: #99CCEA
+}
+.nedita_left
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;
+    layer-background-color: #99CCEA
+}
+.titulo
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+    COLOR: midnightblue;
+    BACKGROUND-COLOR: #99CCEA
+}
+.mostrar_dados_borda
+{
+	FONT-WEIGHT: normal;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	text-align:center;
+}
+.mostrar_dados_borda_azul
+{
+	FONT-WEIGHT: bold;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	text-align:center;
+	COLOR: #0000FF;
+}
+.mostrar_dados_borda_vermelho
+{
+	FONT-WEIGHT: bold;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	text-align:center;
+	COLOR: #CC0000;
+}
+.mostrar_dados
+{
+	FONT-WEIGHT: normal
+}
+.borda
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    text-align:center
+}
+.sem_borda
+{
+ 	text-align:center
+}
+
+.botao1
+{
+    BORDER-RIGHT: #004184 2px solid;
+    BORDER-TOP: #004184 2px solid;
+    BORDER-LEFT: #004184 2px solid;
+    BORDER-BOTTOM: #004184 0px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #004184 2px solid;
+    BACKGROUND-COLOR: #004184;
+    layer-background-color: #004184;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    CURSOR: pointer;
+    TEXT-ALIGN: center
+}
+.botao2
+{
+    BORDER-RIGHT: #004184 2px solid;
+    BORDER-TOP: #004184 2px solid;
+    BORDER-LEFT: #004184 2px solid;
+    BORDER-BOTTOM: #004184 0px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #004184 2px solid;
+    BACKGROUND-COLOR: #004184;
+    layer-background-color: #004184;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    CURSOR: pointer;
+    TEXT-ALIGN: center
+}
+.botao_inserir
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #99CCEA;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	CURSOR: pointer;
+	TEXT-ALIGN: center
+}
+.botao_inserir1
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #99CCEA;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-ALIGN: center
+}
+.botao_excluir
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FF0000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	CURSOR: pointer;
+	TEXT-ALIGN: center
+}
+.botao_excluir1
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FF0000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-ALIGN: center
+}
+.right
+{
+TEXT-ALIGN: right
+}
+.left
+{
+TEXT-ALIGN: left
+}
+.center
+{
+TEXT-ALIGN: center
+}
+.center_borda
+{
+TEXT-ALIGN: center;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.right_borda
+{
+TEXT-ALIGN: right;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.left_borda
+{
+TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.input_branco
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    FONT-SIZE: 12px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.input_red
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    FONT-SIZE: 12px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	TEXT-ALIGN: center;
+	COLOR: #FF0000;
+	font: bold;
+	BORDER-RIGHT: 1px;
+    BORDER-TOP:1px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px
+}
+.select_filtrado
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #99CCEA;
+    layer-background-color: midnightblue;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    CURSOR: pointer;
+    TEXT-ALIGN: center
+}
+select
+{
+    FONT-SIZE: 10px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	BACKGROUND-COLOR: #FFFFAE
+}
+table
+{
+    BORDER-COLLAPSE: collapse
+}
+td_padrao
+{
+    	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	TEXT-ALIGN: center;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+td
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP:1px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px;
+	TEXT-ALIGN: center;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+tr
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+input
+{
+    FONT-SIZE: 12px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}
+textarea
+{
+    PADDING-RIGHT: 2px;
+    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #FFFFAE;
+    layer-background-color: #FFFF00
+}

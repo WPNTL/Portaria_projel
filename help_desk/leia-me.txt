@@ -1,0 +1,62 @@
+ controle de atendimento ao usuario, tipo help desk
+
+com area de administrador que valida o cadastro dos tecnicos
+
+e visualiza todas as chamadas ae bertas, em andamento e finalizadas
+
+o administrador funciona como tecnico tambem ele pode cadastrar e atender as chamadas.
+
+
+para instalar 
+
+1 cole esta pasta para dentro do seu servidor etc...
+
+2 abra o phpmyadmin e execute esses scripts abaixo
+  
+create database suporte;
+
+CREATE TABLE  `suporte`.`registros` (
+  `id` INTEGER NOT NULL auto_increment,
+  `andar` varchar(200) NOT NULL,
+  `setor` varchar(200) NOT NULL,
+  `contato` varchar(200) NOT NULL,
+  `ramal` varchar(200) NOT NULL,
+  `prob_usuario` text NOT NULL,
+  `prob_encontrado` text,
+  `solucao` text,
+  `estado` varchar(200) default NULL,
+  `data_abertura` datetime default NULL,
+  `data_andamento` datetime default NULL,
+  `data_finalizada` datetime default NULL,
+  `tecnico` varchar(200) default NULL,
+  `equipamento` varchar(200) default NULL,
+  PRIMARY KEY  (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE  `suporte`.`usuarios` (
+  `id` INTEGER NOT NULL auto_increment,
+  `nome` varchar(100) default NULL,
+  `login` varchar(20) default NULL,
+  `senha` varchar(20) default NULL,
+  `status` varchar(50) default NULL,
+  `nivel` varchar(50) default NULL,
+   PRIMARY KEY  (`id`))ENGINE=MyISAM DEFAULT CHARSET=latin1; 
+
+INSERT INTO `suporte`.`usuarios` 
+(`id` ,`nome` ,`login` ,`senha`,`status`,`nivel` )
+VALUES (NULL , 'administrador','admin', '123', 'autorizado','administrador');
+
+
+3 configure o arquivo de conexão conecta.php 
+
+5 abra o navegador web e digite a seguinte url http://localhost/Controle_Atendimento/Pagina_Inicial.php
+
+  essa pagina é para o usuario que não é tecnico cadastrar a denuncia 
+  
+  e pro tecnico se logar
+
+6 clique em tecnico logue-se aqui o login = admin senha = 123 esse login é do administrador
+
+7 ai é desfrutar dessa maravilha 
+
+  

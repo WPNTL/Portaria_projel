@@ -1,0 +1,312 @@
+.alerta_senha_expirada {
+	FONT-WEIGHT: bold; COLOR: red
+}
+.alerta_senha_expirada {
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+
+
+
+body
+{
+    WIDTH: 100%;	HEIGHT: 100%;    COLOR: #000000;    BACKGROUND-COLOR: #99CCEA;	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid
+}
+
+.body0 {
+	MARGIN: 0px
+}
+.body1 {
+	MARGIN: 0px; OVERFLOW: hidden
+}
+.body2 {
+	MARGIN: 35px 10px 0px 15px
+}
+.body3 {
+	MARGIN: 5px 0px 0px 5px
+}
+.body4 {
+	MARGIN: 0px; 
+	BACKGROUND-COLOR: white; 
+	layer-background-color: white
+}
+.body5 {
+	MARGIN: 0px 10px 0px 15px
+}
+
+.body6 {
+	BORDER-RIGHT: 0px; 	BORDER-TOP: 0px; 	BORDER-LEFT: 0px; 	WIDTH: 100%; 
+	COLOR: midnightblue; 	BORDER-BOTTOM: 0px; 	HEIGHT: 100%; 	BACKGROUND-COLOR: #7a91b1; 
+	layer-background-color: #7A91b1
+}
+
+.body_relatorio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: black; BORDER-BOTTOM: 0px; FONT-FAMILY: "Courier New", Courier, monospace; HEIGHT: 100%; BACKGROUND-COLOR: white; layer-background-color: White
+}
+
+
+
+.bordas {
+	MARGIN: 0px 5px
+}
+.borda
+{
+    BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;    text-align:center
+}
+.sem_borda
+{
+ 	text-align:center
+}
+.right_borda
+{
+TEXT-ALIGN: right;    
+BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid
+}
+.right_sem_borda
+{
+TEXT-ALIGN: right;  
+}
+.right
+{
+TEXT-ALIGN: right;  
+}
+.left_borda
+{
+TEXT-ALIGN: left;
+BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid
+}
+.left_sem_borda
+{
+TEXT-ALIGN: left;
+}
+.left
+{
+TEXT-ALIGN: left;
+}
+
+
+
+
+.nedita_center
+{
+    PADDING-RIGHT: 2px;    TEXT-ALIGN: center;    BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid;    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;    layer-background-color: #99CCEA
+}
+.nedita_right
+{
+    PADDING-RIGHT: 2px;    TEXT-ALIGN: right;    BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid;    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;    layer-background-color: #99CCEA
+}
+.nedita_left
+{
+    PADDING-RIGHT: 2px;    TEXT-ALIGN: left;    BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid;    COLOR: midnightblue;
+    BACKGROUND-COLOR: #CCCCCC;    layer-background-color: #99CCEA
+}
+
+
+
+
+
+.botao {
+	BORDER-RIGHT: #004184 2px solid; BORDER-TOP: #004184 2px solid; BORDER-LEFT: #004184 2px solid; 
+	BORDER-BOTTOM: #004184 2px solid; 
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; 	FONT-SIZE: 8px; CURSOR: pointer; 
+	FONT-WEIGHT: bold;	layer-background-color: #FFFFFF; TEXT-ALIGN: center
+}
+.botao1 {
+    BORDER-RIGHT: #004184 2px solid;  BORDER-TOP: #004184 2px solid;    BORDER-LEFT: #004184 2px solid;
+    BORDER-BOTTOM: #004184 2px solid;    
+	COLOR: #ffffff;    BACKGROUND-COLOR: #004184; FONT-SIZE: 8px;  CURSOR: pointer; 
+	FONT-WEIGHT: bold;	layer-background-color: #004184;	TEXT-ALIGN: center
+}
+.botao2 {
+	BORDER-RIGHT: #004184 2px solid; 	BORDER-TOP: #004184 2px solid; 	BORDER-LEFT: #004184 2px solid; 
+	BORDER-BOTTOM: #004184 2px solid; 
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; 	FONT-SIZE: 8px; CURSOR: pointer; 	
+	FONT-WEIGHT: bold; 	layer-background-color: #FFFFFF; TEXT-ALIGN: center
+}
+.botao3 {
+
+	BORDER-RIGHT: #004184 2px solid; 	BORDER-TOP: #004184 2px solid; 	BORDER-LEFT: #004184 2px solid; 
+	BORDER-BOTTOM: #004184 2px solid; 
+	COLOR: #ffffff;  BACKGROUND-COLOR: #004184;  FONT-SIZE: 8px; 	CURSOR: pointer; 
+	FONT-WEIGHT: bold;	layer-background-color: #004184; TEXT-ALIGN: center
+}
+.botao4 {
+
+    BORDER-RIGHT: black 0px solid;    BORDER-TOP: black 0px solid;    BORDER-LEFT: black 0px solid;
+    BORDER-BOTTOM: black 0px solid; 
+	COLOR: aliceblue; BACKGROUND-COLOR: #4275a5; FONT-SIZE: 8px;  	CURSOR: pointer; 
+	FONT-WEIGHT: bold; layer-background-color: #4275A5; TEXT-ALIGN: center
+}
+.botao5 {
+    BORDER-RIGHT: #004184 2px solid;  BORDER-TOP: #004184 2px solid;    BORDER-LEFT: #004184 2px solid;
+    BORDER-BOTTOM: #004184 2px solid;    
+	COLOR: #ffffff;    BACKGROUND-COLOR: #004184; FONT-SIZE: 8px;   
+	FONT-WEIGHT: bold;	layer-background-color: #004184;	TEXT-ALIGN: center
+}
+button {
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+
+
+
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+.TD_padrao
+{
+  BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;	TEXT-ALIGN: center;	FONT-WEIGHT: bold;	FONT-SIZE: 10px;	
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+TD {
+	BORDER-RIGHT: 1px;    BORDER-TOP:1px;    BORDER-LEFT: 1px;    BORDER-BOTTOM: 1px;
+	TEXT-ALIGN: center;	FONT-WEIGHT: bold;	FONT-SIZE: 10px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial
+}
+TH {
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial; FONT-SIZE: 10px ; BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+
+
+
+TABLE.menu {
+	BACKGROUND-COLOR: #4275a5; layer-background-color: #4275A5; CURSOR: pointer;	FONT-WEIGHT: bold
+}
+TH.menu {
+	BACKGROUND-COLOR: #4275a5; layer-background-color: #4275A5; FONT-SIZE: 18px; COLOR: white; TEXT-DECORATION: none
+}
+
+
+TD.mensagem {
+	COLOR: white; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+
+
+TABLE.grade {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TR.grade {
+	BORDER-RIGHT: medium none; BORDER-TOP: black 1px solid; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TD.grade {
+	BORDER-RIGHT: medium none; BORDER-TOP: black 1px solid; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+
+
+
+TR.mouse {
+	COLOR: #004c88; layer-background-color: #A8B6D7; CURSOR: pointer; BORDER-RIGHT: 1px; BORDER-TOP: 1px; FONT-SIZE: 10px; BORDER-LEFT: 1px; BORDER-BOTTOM: 1px
+}
+
+
+
+TR.linha0 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; FONT-SIZE: 10px; BORDER-LEFT: 1px; BORDER-BOTTOM: 1px; CURSOR: default; BACKGROUND-COLOR: #fefeee; layer-background-color: #FEFEEE
+}
+TR.linha1 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; FONT-SIZE: 10px; BORDER-LEFT: 1px; BORDER-BOTTOM: 1px; CURSOR: default; BACKGROUND-COLOR: #e8ead8; layer-background-color: #E8EAD8
+}
+
+
+
+select
+{   FONT-SIZE: 8px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+	BACKGROUND-COLOR: #FFFFAE
+}
+.select11 {
+	FONT-SIZE: 8px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;  
+	COLOR: midnightblue; 
+	BACKGROUND-COLOR: #99ccea; 
+	layer-background-color: #99CCEA; 
+}
+.select1 {
+	FONT-SIZE: 8px;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;  
+	COLOR: midnightblue; 
+	BACKGROUND-COLOR: #FFFFAE
+	layer-background-color: #99CCEA; 
+}
+.select_filtrado
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #99CCEA;
+    layer-background-color: midnightblue;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8px;
+    CURSOR: pointer;
+    TEXT-ALIGN: center
+}
+
+
+
+input
+{
+    FONT-SIZE: 12px; 	FONT-WEIGHT: bold;
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial;
+	PADDING-RIGHT: 2px;    TEXT-ALIGN: left;
+    BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;    BACKGROUND-COLOR: #FFFFAE;    layer-background-color: #FFFF00
+}
+
+
+
+textarea
+{
+    PADDING-RIGHT: 2px;    TEXT-ALIGN: left;    
+	BORDER-RIGHT: black 1px solid;    BORDER-TOP: black 1px solid;
+	BORDER-LEFT: black 1px solid;    BORDER-BOTTOM: black 1px solid;
+    COLOR: #000000;    BACKGROUND-COLOR: #FFFFAE;    layer-background-color: #FFFF00
+}
+
+
+FIELDSET.borda {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+FIELDSET {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+
+
+
+
+.titulo
+{
+    BORDER-RIGHT: black 1px solid;     BORDER-TOP: black 1px solid;     BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;     COLOR: midnightblue;     BACKGROUND-COLOR: #99CCEA
+}
+.titulo_sem_borda
+{
+    COLOR: midnightblue;     BACKGROUND-COLOR: #99CCEA
+}
+
+
+
+
+.legenda {
+	COLOR: midnightblue
+}
+LEGEND {
+	FONT-FAMILY: "MS Sans Serif", "Times New Roman", Verdana, Helvetica, sans-serif, Arial; FONT-SIZE: 10px; 
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #191970
+}
+
+.linha_cabecalho {
+	COLOR: aliceblue; BACKGROUND-COLOR: #4275a5; layer-background-color: #4275A5
+}
+
+.linha_cabecalho1 {
+	COLOR: aliceblue; BACKGROUND-COLOR: #4275a5; layer-background-color: #4275A5
+}
