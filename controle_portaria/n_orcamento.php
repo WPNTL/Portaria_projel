@@ -9,7 +9,7 @@ $dataperiodo = $c."/".$d; ?>
 
 <html>
 <head>
-<title> Consulta de Orçamentos </title>
+<title> Consulta de Orï¿½amentos </title>
 <link rel="stylesheet" href="style/default.css" type="text/css">
 <script language="JavaScript" src="funcoes/geral.js"></script>
 <script language="JavaScript" SRC="funcoes/overlib.js"></script>
@@ -21,7 +21,7 @@ $dataperiodo = $c."/".$d; ?>
 
 <?
 $sql = "SELECT * FROM usuarios WHERE username='$nome_usuario'";
-$resultado = mysql_query($sql) or die ("Não foi possível realizar a consulta ao banco de dados");
+$resultado = mysql_query($sql) or die ("Nï¿½o foi possï¿½vel realizar a consulta ao banco de dados");
 while ($linha=mysql_fetch_array($resultado)) {
 $libinserir = $linha["libinserir"]; 
 $libalterar = $linha["libalterar"]; 
@@ -62,7 +62,7 @@ $libhora_saida = $linha["libhora_saida"];
 
 <? /* ID */ ?>
 <? if ($libid == "" and $checkid == "") { ?>
-<td class=titulo > Nº </td>
+<td class=titulo > Numero </td>
 <? } ?>
 
 <? /* DATA ENTRADA */ ?>
@@ -112,22 +112,22 @@ $libhora_saida = $linha["libhora_saida"];
 
 <? /* CR */ ?>
 <? if ($libcr == "" and $checkcr == "") {?>
-<td class=titulo > CR </td>
+<td class=titulo > CrachÃ¡ </td>
 <? } ?>
 
-<? /* Nº NOTA */ ?>
+<? /* Nï¿½ NOTA */ ?>
 <? if ($libn_nota == "" and $checkn_nota == "") {?>
-<td class=titulo >  Nº Nota </td> 
+<td class=titulo >  Num. Nota </td> 
 <? } ?>
 
 <? /* DATA SAIDA */ ?>
 <? if ($libdata_saida == "" and $checkdata_saida == "") { ?>
-<td class=titulo > Data Saída </td>
+<td class=titulo > Data de SaÃ­da </td>
 <? } ?>
 
 <? /* HORA SAIDA */ ?>
 <? if ($libhora_saida == "" and $checkhora_saida == "") { ?>
-<td class=titulo > Hora Saída </td>
+<td class=titulo > Hora de SaÃ­da </td>
 <? } ?>
 
 <? /* OBS */ ?>
@@ -147,7 +147,7 @@ $libhora_saida = $linha["libhora_saida"];
 
 </tr>
 
-<? /* --------------------  INICIO DOS BOTOES DE SELECÃO (FILTROS)  -----------------------------  */  ?>
+<? /* --------------------  INICIO DOS BOTOES DE SELECï¿½O (FILTROS)  -----------------------------  */  ?>
 <?
 if ( $fid <> "") {$fiddb = "and id='$fid'";} else {$fiddb = "";}
 /*if ( $fdata_entrada <> "" ) {$fdata_entradadb = "and data_entrada='$fdata_entrada'";} else {$fdata_entradadb = "";}*/
@@ -189,7 +189,7 @@ if ( $ftempo_total <> "" ) {$ftempo_totaldb = "and tempo_total='$ftempo_total'";
 */
 ?>
 
-<? /* --------------------  FIM DOS BOTOES DE SELECÃO (FILTROS)  -----------------------------  */  ?>
+<? /* --------------------  FIM DOS BOTOES DE SELECï¿½O (FILTROS)  -----------------------------  */  ?>
 
 <? /* --------------------  INICIO DA CONSULTA  -----------------------------  */  ?>
 <?
@@ -234,9 +234,9 @@ $busuarioalterado = $dados["usuarioalterado"];
 <? if ($libalterar == "sim") { ?>
 <td class=center_borda>
 <input class="botao_inserir" type="button" name="altera" value="<?echo $id?>" onClick="javascript:void(open('altera_orcamento.php?id=<?echo$id?>','principal','scrollbars=yes'))"
-onMouseOver="drc('',' Alterar - N°  <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
+onMouseOver="drc('',' Alterar - Nï¿½  <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
 <? } else { ?>
-<input class="botao_inserir1" type="button" name="altera" value="<?echo $id?>" onMouseOver="drc('',' N° <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
+<input class="botao_inserir1" type="button" name="altera" value="<?echo $id?>" onMouseOver="drc('',' Nï¿½ <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
 </td>
 <? } } ?>
 
@@ -349,7 +349,7 @@ onMouseOver="drc('',' Alterar - N°  <?echo"$id"?> '); return true;" onMouseOut="
 <? if ($libexcluir == "sim") { ?>
 <td class=center_borda>
 <input class="botao_excluir" type="button" value="<?echo $id?>"  onClick="javascript:void(open('confirmacao_excluir_orcamento.php?id=<?echo$id?>','principal','scrollbars=yes'))"
-onMouseOver="drc('',' Excluir - N° <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
+onMouseOver="drc('',' Excluir - Nï¿½ <?echo"$id"?> '); return true;" onMouseOut="nd(); return true;">
 </td>
 <? } ?>
 
